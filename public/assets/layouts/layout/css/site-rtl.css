@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.previewThumbBlock
+{
+    height: 150px;
+}
+.previewThumb .imageThumb
+{
+
+max-width: 100%;
+}
+.nav-bar-title {
+    color: #3598dc;
+    display: block;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin: 10px 0 0;
+    padding: 0;
+}
+.nav-bar-title small{
+    color: #eee;
+}
+.product-colors{
+   -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+.btn-colors {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.btn-group.btn-colors label{
+	position: relative;
+	padding:15px;
+
+}
+.btn-colors label input[type="checkbox"]{
+	position: absolute;
+	top:0;
+	right:0;
+	margin:0;
+}
+.mt-checkbox-list.product-colors .mt-checkbox > span:after{
+border-color:red;
+   -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
